@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.title{
+    font-size: 40px;
+    margin: 48px 22px 0px;
+    text-align: center;
+}
+.Jon{
+    width: 206px;
+}
+.head{
+    font-size: 30px;
+}
+.new_know{
+    display: flex;
+    box-shadow: 0.4em 0.4em 5px rgba(0, 0, 0, 0.137);
+    text-align: center;
+    width:800px;
+    margin-bottom: 40px;
+}
+.new{
+    margin-left: 40px;
+}
+.mini_info{
+    text-align: right;
+}
+.data{
+    text-align: right;
+}
+.head{
+    height: 40px;
+    background-color: #000000;
+    box-sizing: border-box;
+    color: white;
+}
+.menu_info{
+    display:flex;
+    box-sizing: border-box;
+}
+.menu{
+    width: 150px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0.4em 0.4em 5px rgba(0, 0, 0, 0.137);
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.aside_main{
+    display:flex;
+    box-sizing: border-box;
+}
+.aside{
+    width: 310px;
+    height:550px;
+    margin: 64px 67px 0px 57px;
+    background-color: #1A142D;
+    color: white;
+
+}
+.photo{
+    width: 273px;
+
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 19px;
+    border: 1px solid white; 
+    box-sizing: border-box;
+
+}
+.birth{
+    margin: 0px 22px 78px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 113px;
+    right: 112.23px;
+    bottom: 46px;
+
+}
+.icon{
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.5s linear;
+}
+.icon:hover {
+    position: relative;
+    bottom: 10px;
+    transition: bottom 0.5s linear;
+}
+.icons .icon{
+    margin-right: 7.88px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 64px;
+    margin-right: 123px;
+    width: 467px;
+}
+.text{
+    font-weight: 400px;
+    padding-bottom: 10px;
+}
+.subtitle{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+.list{
+    margin-left: 0px;
+    padding-left: 15px;
+}
+.red-text{
+    color:red;
+}
+p{
+    margin-top: 0px;
+}
+.media{
+    display: flex;
+    position: relative;
+    margin: 87px 57px 59px 57px;
+}
+.gal{
+    margin-right: 28px;
+    width: 206px;
+    height: 206px;
+}
+
+.info{
+   background-color:#1A142D;
+    color: white;
+    width: 206px;
+    position: absolute;
+    bottom:0;
+    box-sizing: border-box;
+    margin:0;
+    display:none;
+    font-size: 12px;
+    padding: 6px;
+}
+.gal:hover .info{
+    display: block;
+}
